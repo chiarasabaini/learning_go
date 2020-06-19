@@ -51,7 +51,7 @@ func main() {
 	var p float32 = 4.20 // 32 bit
 	var q float64 = 6.90 // 64 bit, default
 
-	ftm.Println(p, q)
+	fmt.Println(p, q)
 
 	// complex
 	/*
