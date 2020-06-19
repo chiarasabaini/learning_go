@@ -71,6 +71,10 @@ func main() {
 	cmul := c1 * c2
 	fmt.Println("product:", cmul)
 
+	// string -> collection of bytes
+	var str string = "abcd"
+	fmt.Println(str)
+
 	/* others
 	byte alias of uint8
 	rune alias of int32
