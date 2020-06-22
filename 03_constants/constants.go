@@ -21,7 +21,7 @@ func main() {
 	*/
 
 	const a = 55
-	a = 89 // reassignment not allowed
+	// a = 89 -> reassignment not allowed
 
 	/*value of a constant should be known at compile time,
 	hence it cannot be assigned to a value returned by a function call
@@ -57,11 +57,14 @@ func main() {
 	var intVar int = a requires a to be int so it becomes an int constant.
 	var complex64Var complex64 = a requires a to be a complex number and hence it becomes a complex constant
 	*/
-	const a = 5
-	var intVar int = a
-	var int32Var int32 = a
-	var float64Var float64 = a
-	var complex64Var complex64 = a
+	const i = 5
+	var intVar int = i
+	var int32Var int32 = i
+	var float64Var float64 = i
+	var complex64Var complex64 = i
 	fmt.Println("intVar", intVar, "\nint32Var", int32Var, "\nfloat64Var", float64Var, "\ncomplex64Var", complex64Var)
 
+	// numeric expressions
+	var g = 5.9 / 8
+	fmt.Printf("a's type %T value %v", g, g)
 }
