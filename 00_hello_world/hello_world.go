@@ -12,7 +12,7 @@ Packages are used to provide code compartmentalization and reusability.
 */
 package main
 
-import "fmt" // stdio in c++
+import "fmt" // works as stdio in c++
 
 func main() {
 	// prints without adding a new line (needs \n)
