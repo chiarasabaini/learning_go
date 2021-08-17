@@ -1,7 +1,7 @@
 /*
 convert
 
-__author__ = "chiara@sabaini.com"
+__author__ = "chiara"
 __version__ = "01.01"
 __date__ = "2020-06-19"
 */
