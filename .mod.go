@@ -1,9 +1,9 @@
 /*
 <program_name>
 
-__author__ = "chiara@sabaini.com"
+__author__ = "chiara"
 __version__ = "01.01"
-__date__ = "2020-mm-gg"
+__date__ = "yyyy-mm-gg"
 */
 
 package main
